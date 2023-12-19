@@ -74,7 +74,7 @@ public class UserController {
         if (bindingResult.hasErrors())
             return "sign-up";
 
-        if (userEntity.getEmail().equals("j.riyazu@gmail.com")) {
+        if (userEntity.getEmail().equals("akshat.d@gmail.com")) {
             userEntity.setUserRole(UserRole.ROLE_ADMIN);
             userEntity.setIsAccountNonExpired(true);
             userEntity.setIsAccountNonLocked(true);

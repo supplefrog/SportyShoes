@@ -16,7 +16,7 @@ public class UserData implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         /*UserEntity admin = new UserEntity("Riyaz J",
-                "j.riyazu@gmail.com",
+                "akshat.d@gmail.com",
                 "Male",
                 passwordEncoder.encode("admin"),
                 "KR Puram",
